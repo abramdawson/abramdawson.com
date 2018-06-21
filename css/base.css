@@ -25,11 +25,16 @@ a:hover {
   cursor: pointer;
 }
 .emphasis {
+  font-family: 'Share Tech Mono', monospace !important;
   text-transform: uppercase !important;
-  color: #CCC !important;
-  padding: 1px 2px;
+  color: #FFF !important;
+  padding: 1px 3px 0px;
   border: 2px solid #CCC;
+  background: #CCC !important;
   font-size: 96%;
+}
+.deemph {
+  color: #CCC;
 }
 .borderless {
   border-bottom: none !important;
