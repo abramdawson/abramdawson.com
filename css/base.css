@@ -39,3 +39,18 @@ a:hover {
 .borderless {
   border-bottom: none !important;
 }
+@media print {
+  .text-container {
+    padding-top: 0;
+  }
+  .identity {
+    font-size: 60%;
+  }
+  p, ul, li {
+    font-size: 14px !important;
+  }
+  a {
+    padding: none !important;
+    border-bottom: none !important;git
+  }
+}
