@@ -39,6 +39,9 @@ a:hover {
 .borderless {
   border-bottom: none !important;
 }
+.separated {
+  padding-bottom: 1em;
+}
 @media print {
   .text-container {
     padding-top: 0;
